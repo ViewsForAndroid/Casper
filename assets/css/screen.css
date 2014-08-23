@@ -427,6 +427,10 @@ margin on the iframe, cause it breaks stuff. */
     margin: 0;
 }
 
+.social-networks a:hover {
+    color: #50585D;
+}
+
 
 /* ==========================================================================
    3. Utilities - These things get used a lot
