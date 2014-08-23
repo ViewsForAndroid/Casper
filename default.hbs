@@ -41,8 +41,14 @@
     {{! Everything else gets inserted here }}
     {{{body}}}
 
+    <div class="pagination">
+        <a href="https://github.com/ViewsForAndroid" target="_blank"><i style="padding: 20px" class="fa fa-github fa-4x"></i></a>
+        <a href="https://github.com/ViewsForAndroid" target="_blank"><i style="padding: 20px" class="fa fa-twitter fa-4x"></i></a>
+        <a href="https://github.com/ViewsForAndroid" target="_blank"><i style="padding: 20px" class="fa fa-google-plus fa-4x"></i></a>
+    </div>
+
     <footer class="site-footer clearfix">
-         <section class="copyright"><a href="{{@blog.url}}">{{@blog.title}}</a> &copy; {{date format="YYYY"}}</section>
+        <section class="copyright"><a href="{{@blog.url}}">{{@blog.title}}</a> &copy; {{date format="YYYY"}}</section>
          <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
     </footer>
 
