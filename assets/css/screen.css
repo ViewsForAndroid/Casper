@@ -973,6 +973,12 @@ body:not(.post-template) .post-title {
     color: #50585D;
 }
 
+.post-content pre code {
+    overflow: auto;
+    word-wrap: normal;
+    white-space: pre;
+}
+
 /* The subscribe icon on the footer */
 .subscribe {
     width: 28px;
