@@ -117,6 +117,18 @@ table { border-collapse: collapse; border-spacing: 0; }
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Light.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'RobotoThin';
+    src: url('../fonts/Roboto-Thin.ttf') format('truetype');
+    font-weight: normal;
+}
+
 /* Apply these base styles to all icons */
 [class^="icon-"]:before, [class*=" icon-"]:before {
     font-family: "casper-icons", "Open Sans", sans-serif;
@@ -673,7 +685,7 @@ margin on the iframe, cause it breaks stuff. */
     font-size: 5.6rem;
     letter-spacing: -1px;
     font-weight: 700;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #fff;
 }
 
@@ -682,7 +694,8 @@ margin on the iframe, cause it breaks stuff. */
     font-size: 2.2rem;
     line-height: 1.5em;
     font-weight: 400;
-    font-family: "Open Sans", sans-serif;
+    /*font-family: "Open Sans", sans-serif;*/
+    font-family: 'RobotoThin', sans-serif;
     letter-spacing: 0;
     color: rgba(255,255,255,0.8);
 }
