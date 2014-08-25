@@ -649,17 +649,22 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .main-nav.overlay a:hover {
-    color: #222;
-    border-color: rgba(255,255,255,0.8);
-    background: rgba(255,255,255,0.8);
+    /*color: #222;*/
+    /*border-color: rgba(255,255,255,0.8);*/
+    /*background: rgba(255,255,255,0.8);*/
+    border-color: #E91E63;
+    color: #ffffff;
+    background-color: #F06292;
     transition: all 0.1s ease;
 }
 
 /* Add a border to the buttons on hover */
 .back-button:hover,
 .subscribe-button:hover {
-    border-color: #bfc8cd;
-    color: #9EABB3;
+    /*border-color: #bfc8cd;*/
+    border-color: #E91E63;
+    color: #ffffff;
+    background-color: #F06292;
 }
 
 /* The details of your blog. Defined in ghost/settings/ */
@@ -698,8 +703,10 @@ margin on the iframe, cause it breaks stuff. */
 
 .no-cover .main-nav.overlay .back-button,
 .no-cover .main-nav.overlay .subscribe-button {
-    color: rgba(0,0,0,0.4);
-    border-color: rgba(0,0,0,0.3);
+    /*color: rgba(0,0,0,0.4);*/
+    /*border-color: rgba(0,0,0,0.3);*/
+    border-color: #E91E63;
+    color: #ffffff;
 }
 
 /* Add subtle load-in animation for content on the home page */
@@ -1544,13 +1551,23 @@ body:not(.post-template) .post-title {
         height: 44px;
         line-height: 41px;
         border-radius: 0;
-        color: #2e2e2e;
+        /*color: #2e2e2e;*/
+        color: #ffffff;
+
     }
-    .back-button:hover,
+/*    .back-button:hover,
     .subscribe-button:hover {
         border-color: #ebeef0;
         color: #2e2e2e;
         background: #ebeef0;
+    }*/
+
+    .back-button:hover,
+    .subscribe-button:hover {
+        /*border-color: #bfc8cd;*/
+        border-color: #E91E63;
+        color: #ffffff;
+        background-color: #F06292;
     }
 
     .back-button {
@@ -1562,9 +1579,12 @@ body:not(.post-template) .post-title {
     }
 
     .main-nav.overlay a:hover {
-        color: #fff;
+/*        color: #fff;
         border-color: transparent;
-        background: transparent;
+        background: transparent;*/
+        border-color: #E91E63;
+        color: #ffffff;
+        background-color: #F06292;
     }
 
     .no-cover .main-nav.overlay {
