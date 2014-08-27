@@ -255,7 +255,8 @@ a {
 }
 
 a:hover {
-    color: #111;
+    color: #e91e63;
+    /*color: #111;*/
 }
 
 p, ul, ol, dl {
@@ -440,7 +441,8 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .social-networks a:hover {
-    color: #50585D;
+    color: #e91e63;
+    /*color: #50585D;*/
 }
 
 
@@ -994,7 +996,8 @@ body:not(.post-template) .post-title {
 }
 
 .post-footer .share a:hover {
-    color: #50585D;
+    color: #E91E63;
+    /*color: #50585D;*/
 }
 
 .post-content pre code {
@@ -1100,9 +1103,11 @@ body:not(.post-template) .post-title {
     background: transparent;
 }
 
+/* Add one single line between little circle in the middle of the border-bottom */
 .author-profile {
     padding: 0 15px 5rem 15px;
     border-bottom: #EBF2F6 1px solid;
+    /*border-bottom: #E91E63 1px solid;*/
     text-align: center;
 }
 
@@ -1113,6 +1118,7 @@ body:not(.post-template) .post-title {
     width: 7px;
     height: 7px;
     border: #E7EEF2 1px solid;
+    /*border: #E91E63 1px solid;*/
     position: absolute;
     bottom: -5px;
     left: 50%;
@@ -1136,11 +1142,12 @@ body:not(.post-template) .post-title {
     width: 80px;
     height: 80px;
     border-radius: 100%;
-    overflow: hidden;
-    padding: 6px;
-    background: #fff;
+    /*overflow: hidden;*/
+    /*padding: 6px;*/
+    /*background: #fff;*/
     z-index: 2;
     box-shadow: #E7EEF2 0 0 0 1px;
+
 }
 
 .author-image .img {
@@ -1151,6 +1158,8 @@ body:not(.post-template) .post-title {
     background-size: cover;
     background-position: center center;
     border-radius: 100%;
+    border: #E91E63 5px solid;/*TODO Debugeaer este code por que no hace un circulor perfecto */
+
 }
 
 .author-profile .author-image {
@@ -1159,7 +1168,7 @@ body:not(.post-template) .post-title {
     top: auto;
     width: 120px;
     height: 120px;
-    padding: 3px;
+    /*padding: 3px;*/
     margin: -100px auto 0 auto;
     box-shadow: none;
 }
@@ -1326,7 +1335,8 @@ body:not(.post-template) .post-title {
 }
 
 .site-footer a:hover {
-    color: #50585D;
+    /*color: #50585D;*/
+    color: #E91E63;
 }
 
 .poweredby {
