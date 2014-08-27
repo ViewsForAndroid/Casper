@@ -1158,8 +1158,37 @@ body:not(.post-template) .post-title {
     background-size: cover;
     background-position: center center;
     border-radius: 100%;
-    border: #E91E63 5px solid;/*TODO Debugeaer este code por que no hace un circulor perfecto */
+    border: #E91E63 5px solid;
+}
 
+.author-image-post {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    margin-left: -40px;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    overflow: hidden;
+    padding: 6px;
+    background: #fff;
+    z-index: 2;
+    box-shadow: #E7EEF2 0 0 0 1px;
+
+}
+
+.author-image-post .img {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 100%;
 }
 
 .author-profile .author-image {
